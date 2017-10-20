@@ -13,11 +13,13 @@ public class LoadImage extends Thread{
         }
     }
     
-    public static void dysplay(String imagen){
-        this.imagen = imagen;        
-        JFrame f = new JFrame("Load");
+    public static void display(String imagen){
+        //this.imagen = imagen;        
         
-        f.addWindowListener(new WindowAdapter(){
+        //JFrame f = new JFrame("Load");
+        
+        
+        //f.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e){
                 System.exit(0);
             }             
